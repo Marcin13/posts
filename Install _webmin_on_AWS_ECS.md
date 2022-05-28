@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false 
 searchHidden: false
 editPost:
-    URL: "https://github.com/Marcin13/posts/blob/master/Install _webmin_on_AWS_ECS.md"
+    URL: "https://github.com/Marcin13/posts/blob/master/Install_webmin_on_AWS_ECS.md"
 ---
 **Webmin** is a web-based management interface for system administration of *nix systems. It allows remote management of
 your system without having to manually modify the configuration files. It lets you install packages like LAMP stack,
