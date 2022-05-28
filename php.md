@@ -10,6 +10,8 @@ tags: ['PHP']
 ShowToc: true
 TocOpen: false
 searchHidden: false
+editPost:
+    URL: "https://github.com/Marcin13/posts/blob/master/php.md"
 ---
 
 PHP's development began in _1994_ when **Rasmus Lerdorf** wrote several Common Gateway Interface (CGI) programs in C, 

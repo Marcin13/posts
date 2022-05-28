@@ -10,6 +10,8 @@ tags: ['syntax']
 ShowToc: true
 TocOpen: false
 searchHidden: false
+editPost:
+    URL: "https://github.com/Marcin13/posts/blob/master/syntax.md"
 ---
 __Advertisement :)__
 

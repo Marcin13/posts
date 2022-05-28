@@ -10,6 +10,8 @@ tags: ["aws","SSH","private subnets"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
+editPost:
+      URL: "https://github.com/Marcin13/posts/blob/master/SSH_into_EC2_in_Private_Subnet.md"
 ---
 
 ![SSH into EC2 in Private Subnet](https://cdn-digicloud.pressidium.com/wp-content/uploads/2020/10/SSH-into-EC2-in-Private-Subnet-Amazon-AWS-600x382.jpg#center)

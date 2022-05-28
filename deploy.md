@@ -11,6 +11,8 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 ShowRssButtonInSectionTermList: true
+editPost:
+    URL: "https://github.com/Marcin13/posts/blob/master/deploy.md"
 
 # dziala image for post in posts
 cover:

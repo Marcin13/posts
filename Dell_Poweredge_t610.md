@@ -10,6 +10,8 @@ tags: ["Dell Poweredge t610"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
+editPost:
+    URL: "https://github.com/Marcin13/posts/blob/master/Dell_Poweredge_t610.md"
 ---
 ### Dell PowerEdge T610
 ![Dell t610](https://cdn.bargainhardware.co.uk/media/product/c7f/dell-poweredge-t610-8x-2-5-sff-tower-server-757.jpg)

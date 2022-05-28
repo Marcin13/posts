@@ -10,6 +10,8 @@ tags: ["aws", "Webmin"]
 ShowToc: true 
 TocOpen: false 
 searchHidden: false
+editPost:
+    URL: "https://github.com/Marcin13/posts/blob/master/Install _webmin_on_AWS_ECS.md"
 ---
 **Webmin** is a web-based management interface for system administration of *nix systems. It allows remote management of
 your system without having to manually modify the configuration files. It lets you install packages like LAMP stack,
@@ -45,7 +47,7 @@ sudo yum update -y & yum upgrade -y
 ```
 
 Output:
-![Screenshot](../../img/webmin/Screenshot2.png)
+![Screenshot](http://marcinmitruk.link/img/webmin/Screenshot2.png)
 
 You will now be able to install **webmin** with the command:
 ```shell
@@ -53,10 +55,10 @@ sudo yum install webmin
 ```
 
 Press `Y` on output to continue installation:
-![Screenshot](../../img/webmin/Screenshot3.png)
+![Screenshot](http://marcinmitruk.link/img/webmin/Screenshot3.png)
 
 Output of successfully installation:
-![inbound rouls](../../img/webmin/Screenshot1.png)
+![inbound rouls](http://marcinmitruk.link/img/webmin/Screenshot1.png)
 > **All dependencies** should be resolved automatically.
 
 ## Configure Webmin
@@ -91,7 +93,7 @@ https://www.example.com:10000
 ## Important 
 >Update you security group inbound to allow `TCP` from port `10000`
 
-![inbound rouls](../../img/webmin/Screenshot4.png)
+![inbound rouls](http://marcinmitruk.link/img/webmin/Screenshot4.png)
 
 
 ## Wait! What is my login password?
