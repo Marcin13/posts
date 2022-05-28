@@ -47,6 +47,7 @@ sudo yum update -y & yum upgrade -y
 ```
 
 Output:
+
 ![Screenshot](http://marcinmitruk.link/img/webmin/Screenshot2.png)
 
 You will now be able to install **webmin** with the command:
@@ -55,9 +56,11 @@ sudo yum install webmin
 ```
 
 Press `Y` on output to continue installation:
+
 ![Screenshot](http://marcinmitruk.link/img/webmin/Screenshot3.png)
 
 Output of successfully installation:
+
 ![inbound rouls](http://marcinmitruk.link/img/webmin/Screenshot1.png)
 > **All dependencies** should be resolved automatically.
 
