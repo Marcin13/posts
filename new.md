@@ -15,3 +15,4 @@ editPost:
 ---
 # The sample of a new post text
 Some text Laura if some dollar
+💻 and 💤 for all day.
