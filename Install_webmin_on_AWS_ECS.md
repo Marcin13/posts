@@ -6,13 +6,15 @@ description: "Webmin is a web-based interface for system administration for Unix
 aliases: ["Webmin"]
 draft: false 
 categories: ["aws", "EC2", "Webmin"]
-tags: ["aws", "Webmin"]
+tags: ["aws", "Webmin", "EC2"]
 ShowToc: true 
 TocOpen: false 
 searchHidden: false
 editPost:
     URL: "https://github.com/Marcin13/posts/blob/master/Install_webmin_on_AWS_ECS.md"
 ---
+# Webmin
+
 **Webmin** is a web-based management interface for system administration of *nix systems. It allows remote management of
 your system without having to manually modify the configuration files. It lets you install packages like LAMP stack,
 mail servers, WordPress etc. and setup & configure – firewalls, DNS, FTP servers, users, file sharing etc. all through a
@@ -21,7 +23,7 @@ remote web interface. It is a must - have tool for systems and web administrator
 ## Download Webmin
 
 Create Webmin Yum Repository Create the `/etc/yum.repos.d/webmin.repo` 
-```nano
+```shell 
 sudo nano /etc/yum.repos.d/webmin.repo
 ```
 Add the following text into the file once repository is created
@@ -55,7 +57,7 @@ You will now be able to install **webmin** with the command:
 sudo yum install webmin
 ```
 
-Press `Y` on output to continue installation:
+Press `**Y**` on output to continue installation:
 
 ![Screenshot](http://marcinmitruk.link/img/webmin/Screenshot3.png)
 
