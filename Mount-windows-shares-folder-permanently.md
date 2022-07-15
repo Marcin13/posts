@@ -3,13 +3,15 @@ author: "Marcin M"
 title: "Mount Windows Shares Folder Permanently"
 date: 2022-07-12T17:34:02+01:00
 description: "This document describes how to mount **CIFS** shares permanently."
-aliases: []
+aliases: ["cifs","sharing folders"]
 draft: true
-categories: []
-tags: []
+categories: ["cifs","sharing folders"]
+tags: ["cifs","sharing folders"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
+editPost:
+ URL: "https://github.com/Marcin13/posts/blob/master/Mount-windows-shares-folder-permanently.md"
 ---
 This document describes how to mount **CIFS** shares permanently.
 The shares might be hosted on a **Windows** computer/server, or on a **Linux/UNIX** server running Samba.
@@ -38,6 +40,8 @@ sudo apt-get install cifs-utils
  >>### Create a share folder in Windows system
 > Create in your system folder which one you want to share with Linux via CIFS
 ***
+![skills](../../img/Mount-windows-shares-folder-permanently/Screenshot_1.png)
+![skills](../../img/Mount-windows-shares-folder-permanently/Screenshot_2.png)
 ### Mounting unprotected (guest) network folders
 
 First, let's create the mount directory. You will need a separate directory for each mount.
