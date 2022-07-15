@@ -40,8 +40,8 @@ sudo apt-get install cifs-utils
  >>### Create a share folder in Windows system
 > Create in your system folder which one you want to share with Linux via CIFS
 ***
-![skills](../../img/Mount-windows-shares-folder-permanently/Screenshot_1.png)
-![skills](../../img/Mount-windows-shares-folder-permanently/Screenshot_2.png)
+![Screenshot.png](http://marcinmitruk.link/img/Mount-windows-shares-folder-permanently/Screenshot_1.png)
+![Screenshot.png](http://marcinmitruk.link/img/Mount-windows-shares-folder-permanently/Screenshot_2.png)
 ### Mounting unprotected (guest) network folders
 
 First, let's create the mount directory. You will need a separate directory for each mount.
