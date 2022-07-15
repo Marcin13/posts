@@ -13,8 +13,9 @@ searchHidden: false
 editPost:
     URL: "https://github.com/Marcin13/posts/blob/master/Ansible.md"
 ---
+## First steps I made to start my adventure with Ansible 
 Please go to official web to get instruction how to install Ansible - this is the best way.
-[Installing and upgrading Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible)
+- [Installing and upgrading Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible)
 
 Ansible's installation and version
 ```shell
@@ -62,7 +63,7 @@ Gather facts about your hosts, but limit it to just one host
 ```shell
 ansible all -m gather_facts --limit 192.168.1.171
 ```
-## install apache and php support for apache
+### install apache and php support for apache
 install_apache.yml
 ```yaml
 ---
@@ -81,7 +82,7 @@ install_apache.yml
     when: ansible_distribution == "Ubuntu"
 ```
 
-## remove apache package and remove php support for apache
+### remove apache package and remove php support for apache
 remove_apache.yml
 ```yaml
 ---
@@ -100,7 +101,7 @@ remove_apache.yml
       name: libapache2-mod-php
       state: absent
 ```
-with parametr -C, --check don't make any changes; instead, try to predict some of the changes that may occur
+with parametr -C, --check don't make any changes; instead, try to predict some changes that may occur
 ```shell
 ansible-playbook -C remove_apache.yml 
 ```
