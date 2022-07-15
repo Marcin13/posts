@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+author: "Marcin M"
 title: "Syntax"
 date: 2022-03-10T20:50:29Z
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
