@@ -10,6 +10,11 @@ tags: ["oracle","port"]
 ShowToc: true
 TocOpen: true
 searchHidden: false
+<<<<<<< HEAD
+=======
+editPost:
+    URL: "https://github.com/Marcin13/posts/blob/master/Can\'t_Access_Oracle_Cloud_Always_Free_Compute_Http_Port_80.md"
+>>>>>>> origin/master
 ---
 Can't access Oracle Cloud Always Free Compute http port
 
