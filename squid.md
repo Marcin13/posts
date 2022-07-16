@@ -8,8 +8,10 @@ draft: false
 categories: ["SQUID"]
 tags: ["squid"]
 ShowToc: true
-TocOpen: true
+TocOpen: false
 searchHidden: false
+editPost:
+    URL: "https://github.com/Marcin13/posts/blob/master/Squid.md"
 ---
 get the basic status of Squid
 ```shell

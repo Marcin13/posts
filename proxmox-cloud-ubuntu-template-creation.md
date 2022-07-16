@@ -15,6 +15,10 @@ searchHidden: false
 
 ## Preparing Cloud-Init Templates
 
+The first step is to prepare your VM. Basically you can use any VM. Simply install the Cloud-Init packages inside the VM that you want to prepare. On Debian/Ubuntu based systems this is as simple as:
+```shell
+apt-get install cloud-init
+```
 Already many distributions provide ready-to-use Cloud-Init images (provided as .qcow2 files), so alternatively you can simply download and import such images. For the following example,
 we will use the cloud image provided by Ubuntu at [https://cloud-images.ubuntu.com][https://cloud-images.ubuntu.com]
 
@@ -84,7 +88,7 @@ qm template 9000
 ```shell
 root@pve:~# locate –i *base-9001*
 ```
-clear template
+a tu na dole chcialem zrobic na templatce
 ```shell
 virt-sysprep -a /dev/pve/base-9001-disk-0
 [   0.0] Examining the guest ...
@@ -174,17 +178,8 @@ root@pve:~#
 
 [https://cloud-images.ubuntu.com]: https://cloud-images.ubuntu.com
 
-Using virt-customize to install packages on a guest
-[run cmd before conwerting to template][https://codingpackets.com/blog/proxmox-import-and-use-cloud-images/]
+you can install it, it shouldn't break your install.
 
-Install Software packages inside an image
-```shell
-$ virt-customize -a rhel-server-7.6.qcow2 --install [vim,bash-completion,wget,curl,telnet,unzip]
-[   0.0] Examining the guest ...
-[   2.1] Setting a random seed
-[   2.1] Installing packages: [vim bash-completion wget curl telnet unzip]
-[ 563.2] Finishing off
+i'd install it with  apt install --no-install-recommends --no-install-suggests libguestfs-tools.
 
-$ virt-customize -a rhel-server-7.6.qcow2 --install net-tools
-```
-https://computingforgeeks.com/customize-qcow2-raw-image-templates-with-virt-customize/
+just be aware that you can't manage proxmox guests with libvirt.
