@@ -11,10 +11,10 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-    URL: "https://github.com/Marcin13/posts/blob/master/Ansible.md"
+   URL: "https://github.com/Marcin13/posts/blob/master/Ansible.md"
 ---
-## First steps I made to start my adventure with Ansible 
-Please go to official web to get instruction how to install Ansible - this is the best way.
+## First steps I made to start my adventure with Ansible
+Please go to the official web for instructions on installing Ansible - this is the best way.
 - [Installing and upgrading Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible)
 
 Ansible's installation and version
@@ -40,11 +40,11 @@ remote_user = ubuntu
 ```
 
 Test Ansible is working
- ```shell
+```shell
 ansible all --key-file ~/.ssh/ansible -i inventory -m ping
 ```
 
-After create config.cfg ansible command can be simplified
+After creating config.cfg ansible command can be simplified
 ```shell
 ansible all -m ping
 ```
@@ -63,50 +63,49 @@ Gather facts about your hosts, but limit it to just one host
 ```shell
 ansible all -m gather_facts --limit 192.168.1.171
 ```
-### install apache and php support for apache
+### install apache and PHP support for apache
 install_apache.yml
 ```yaml
 ---
 
 - hosts: all
-  become: true
-  tasks:
+ become: true
+ tasks:
 
-  - name: install apache and php for Ubuntu servers
-    apt:
-      name:
-        - apache2
-        - libapache2-mod-php
-      state: latest
-      update_cache: yes
-    when: ansible_distribution == "Ubuntu"
+ - name: install apache and php for Ubuntu servers
+   apt:
+     name:
+       - apache2
+       - libapache2-mod-php
+     state: latest
+     update_cache: yes
+   when: ansible_distribution == "Ubuntu"
 ```
 
-### remove apache package and remove php support for apache
+### remove the apache package and remove PHP support for apache
 remove_apache.yml
 ```yaml
 ---
- 
+
 - hosts: all
-  become: true
-  tasks:
- 
-  - name: remove apache2 package
-    apt:
-      name: apache2
-      state: absent
- 
-  - name: remove php support for apache
-    apt:
-      name: libapache2-mod-php
-      state: absent
+ become: true
+ tasks:
+
+ - name: remove apache2 package
+   apt:
+     name: apache2
+     state: absent
+
+ - name: remove php support for apache
+   apt:
+     name: libapache2-mod-php
+     state: absent
 ```
-with parametr -C, --check don't make any changes; instead, try to predict some changes that may occur
+with parameter -C, --check doesn't make any changes; instead, try to predict some changes that may occur
 ```shell
-ansible-playbook -C remove_apache.yml 
+ansible-playbook -C remove_apache.yml
 ```
-Ansible documentation 
+Ansible documentation
 ```shell
 ansible-doc service
 ```
-
