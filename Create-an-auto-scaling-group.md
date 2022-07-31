@@ -6,7 +6,7 @@ description: "Create lunche template and autoscaling group with AWS console."
 aliases: ['AWS','Autoscaling group']
 draft: true
 categories: ['AWS','Autoscaling group']
-tags: ['AWS','Autoscaling group']
+tags: ['AWS']
 ShowToc: true
 TocOpen: false
 searchHidden: false
