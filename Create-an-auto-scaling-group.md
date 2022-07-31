@@ -3,7 +3,7 @@ author: "Marcin M"
 title: "Create an Auto Scaling Group"
 date: 2022-07-16T18:26:57+01:00
 description: "Create lunche template and autoscaling group with AWS console"
-aliases: ['AWS','Autoscaling group']
+aliases: ["AWS","Autoscaling group"]
 draft: true
 categories: ['AWS','Autoscaling group']
 tags: ['AWS']
