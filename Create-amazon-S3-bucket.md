@@ -16,12 +16,12 @@ editPost:
 #### We will create s3 bucket
 
 > #### Let's create S3 bucket
-
+Choose create butoon to start create bucket
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_1.png)
 ***
 
 > #### Give the bucket name
-and choose the region
+and choose the region, 
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_2.png)
 ***
 
