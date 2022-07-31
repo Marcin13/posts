@@ -15,14 +15,10 @@ searchHidden: false
 
 ## Preparing Cloud-Init Templates
 
-The first step is to prepare your VM. Basically, you can use any VM. Simply install the Cloud-Init packages inside the VM that you want to prepare. On Debian/Ubuntu-based systems this is as simple as:
-```shell
-apt-get install cloud-init
-```
 Already many distributions provide ready-to-use Cloud-Init images (provided as .qcow2 files), so alternatively you can simply download and import such images. For the following example,
 we will use the cloud image provided by Ubuntu at [https://cloud-images.ubuntu.com][https://cloud-images.ubuntu.com]
 
-Download the image
+download the image
 ```shell
 wget https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img
 ```
@@ -45,7 +41,7 @@ The next step is to configure a CD-ROM drive, which will be used to pass the Clo
 ```shell
 qm set 9000 --ide2 local-lvm:cloudinit
 ```
-To be able to boot directly from the Cloud-Init image, set the bootdisk parameter to scsi0, and restrict BIOS to boot from disk only. This will speed up booting because VM BIOS skips the testing for a bootable CD-ROM.
+To be able to boot directly from the Cloud-Init image, set the bootdisk parameter to scsi0, and restrict BIOS to boot from disk only. This will speed up booting, because VM BIOS skips the testing for a bootable CD-ROM.
 ```shell
 qm set 9000 --boot c --bootdisk scsi0
 ```
@@ -53,7 +49,7 @@ Also configure a serial console and use it as a display. Many Cloud-Init images 
 ```shell
 qm set 9000 --serial0 socket --vga serial0
 ```
-As the last step, it is helpful to convert the VM into a template. From this template, you can then quickly create linked clones. The deployment from VM templates is much faster than creating a full clone (copy).
+In a last step, it is helpful to convert the VM into a template. From this template you can then quickly create linked clones. The deployment from VM templates is much faster than creating a full clone (copy).
 ```shell
 qm template 9000
 ```
@@ -88,27 +84,27 @@ qm template 9000
 ```shell
 root@pve:~# locate –i *base-9001*
 ```
-a tu na dole chcialem zrobic na templatce
+clear template
 ```shell
 virt-sysprep -a /dev/pve/base-9001-disk-0
 [   0.0] Examining the guest ...
 virt-sysprep: error: libguestfs error: guestfs_launch failed.
 This usually means the libguestfs appliance failed to start or crashed.
 Do:
- export LIBGUESTFS_DEBUG=1 LIBGUESTFS_TRACE=1
+  export LIBGUESTFS_DEBUG=1 LIBGUESTFS_TRACE=1
 and run the command again.  For further information, read:
- http://libguestfs.org/guestfs-faq.1.html#debugging-libguestfs
+  http://libguestfs.org/guestfs-faq.1.html#debugging-libguestfs
 You can also run 'libguestfs-test-tool' and post the *complete* output
 into a bug report or message to the libguestfs mailing list.
 
-If reporting bugs, run virt-sysprep with debugging enabled and include the
+If reporting bugs, run virt-sysprep with debugging enabled and include the 
 complete output:
 
- virt-sysprep -v -x [...]
-root@pve:~#
+  virt-sysprep -v -x [...]
+root@pve:~# 
 ```
 
-z sukcesem
+z sukcesem 
 ```shell
 root@pve:~# virt-sysprep -a /dev/pve/vm-103-disk-0
 [   0.0] Examining the guest ...
@@ -150,7 +146,7 @@ root@pve:~# virt-sysprep -a /dev/pve/vm-103-disk-0
 [  10.9] Setting a random seed
 [  11.0] Setting the machine ID in /etc/machine-id
 [  11.1] Performing "lvm-uuids" ...
-root@pve:~#
+root@pve:~# 
 ```
 
 ```shell
@@ -161,7 +157,7 @@ root@pve:~# locate –i *vm-9001*
 /run/udev/links/\x2fpve\x2fvm-9001-cloudinit/b253:14
 /run/udev/links/\x2fpve\x2fvm-9001-disk-0
 /run/udev/links/\x2fpve\x2fvm-9001-disk-0/b253:13
-root@pve:~#
+root@pve:~# 
 ```
 
 
@@ -178,8 +174,7 @@ root@pve:~#
 
 [https://cloud-images.ubuntu.com]: https://cloud-images.ubuntu.com
 
-you can install it, it shouldn't break your install.
+Using virt-customize to install packages on a guest
+[run cmd before conwerting to template][https://codingpackets.com/blog/proxmox-import-and-use-cloud-images/]
 
-i'd install it with  apt install --no-install-recommends --no-install-suggests libguestfs-tools.
-
-just be aware that you can't manage proxmox guests with libvirt.
+Install Software packages inside an image
