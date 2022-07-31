@@ -2,7 +2,7 @@
 author: "Marcin M"
 title: "Create an Auto Scaling Group"
 date: 2022-07-16T18:26:57+01:00
-description: "Create lunche template and autoscaling group with AWS console."
+description: "Create lunche template and autoscaling group with AWS console"
 aliases: ['AWS','Autoscaling group']
 draft: true
 categories: ['AWS','Autoscaling group']
@@ -60,6 +60,7 @@ This code will create an Apache web server and index.html with content.
 This code will work with Amazon linux
 
 ```bash
+
 #!/bin/bash
 yum update -y
 yum install -y httpd
@@ -69,6 +70,7 @@ INTERFACE=$(curl -s http://169.254.169.254/latest/meta-data/network/interfaces/m
 SUBNETID=$(curl -s http://169.254.169.254/latest/meta-data/network/interfaces/macs/${INTERFACE}/subnet-id)
 echo '<center><h1>This instance is in the subnet wih ID: SUBNETID </h1></center>' > /var/www/html/index.txt
 sed "s/SUBNETID/$SUBNETID/" /var/www/html/index.txt > /var/www/html/index.html
+
 ```
 
 > #### Past code and Create Lunch Template
