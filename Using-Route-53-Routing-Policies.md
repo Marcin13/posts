@@ -3,7 +3,7 @@ author: "Marcin M"
 title: "Using Route 53 Routing Policies"
 date: 2022-07-30T17:55:02+01:00
 description: "Sample article showcasing Using Route 53 Routing Policies"
-aliases: ["AWS,'DNS']
+aliases: ['AWS,'DNS']
 draft: true
 categories: ['AWS','DNS Caching and Performance Optimization']
 tags: ['AWS']
