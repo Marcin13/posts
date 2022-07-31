@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-    URL: "https://github.com/Marcin13/posts/blob/master/Create-an-Auto-Scaling-Group.md"
+    URL: "https://github.com/Marcin13/posts/blob/master/Create-an-auto-scaling-group.md"
 ---
 ## We will create lunche template and auto-scaling group 
 ### Where there is no red arrow or description, leave the default values.
