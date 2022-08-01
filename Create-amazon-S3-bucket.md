@@ -14,9 +14,10 @@ editPost:
     URL: "https://github.com/Marcin13/posts/blob/master/Create-amazon-S3-bucket.md"
 ---
 #### We will create s3 bucket
+In this tutorial we will create our first S3 bucket
 
 > #### Let's create S3 bucket
-
+Click create bucket to create one
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_1.png)
 ***
 
@@ -26,7 +27,7 @@ and choose the region
 ***
 
 > #### Public access is block by default
-
+If we want we can enable public access here
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_3.png)
 ***
 
@@ -46,7 +47,7 @@ and choose the region
 ***
 
 > #### Upload file
-
+Now we can upload some files from our computer
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_7.png)
 ***
 
@@ -56,7 +57,7 @@ under properties, we can choose storage class
 ***
 
 > #### Encryption 
-
+Enable or disable encryption for the bucket
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_9.png)
 ***
 
@@ -71,13 +72,17 @@ upload files to the bucket
 ***
 
 > #### Files in the bucket
-
+Our files now in the bucket
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_12.png)
 ***
 
 > #### URL
-Under this URL you can access your files if their aer publicly accessible
+We can use this URL to access our files from the browser
 ![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_13.png)
 ***
+
+### Conclusion
+We just create our first bucket and upload some files.
+We can access those files via you URL if the bucket or files are publicly accessible.
 
 ### Useful links
