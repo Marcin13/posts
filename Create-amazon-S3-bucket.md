@@ -14,7 +14,7 @@ editPost:
     URL: "https://github.com/Marcin13/posts/blob/master/Create-amazon-S3-bucket.md"
 ---
 #### We will create s3 bucket
-In this tutorial we will create our first S3 bucket
+In this article will create our first S3 bucket
 
 > #### Let's create S3 bucket
 Click create bucket to create one
