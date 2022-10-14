@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-  URL: "https://github.com/Marcin13/posts/blob/master/Nohup-With-Busybox_httpd.md"
+  URL: "https://github.com/Marcin13/posts/blob/master/nohup-with-busybox_httpd.md"
 ---
 
 
