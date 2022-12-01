@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-    URL: "https://github.com/Marcin13/posts/blob/master/Register-Domain-With-Route-53.md"
+    URL: "https://github.com/Marcin13/posts/blob/master/register-domain-with-route-53.md"
 ---
 
 
