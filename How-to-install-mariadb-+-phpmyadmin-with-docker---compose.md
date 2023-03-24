@@ -2,11 +2,11 @@
 author: "Marcin M"
 title: "How to Install Mariadb + Phpmyadmin With Docker-Compose"
 date: 2023-03-24T10:29:39Z
-description: "The text explains how to use MariaDB and phpMyAdmin for web application management with Docker."
-aliases: []
+description: "The text explains how to use MariaDB and phpMyAdmin for web application management with Docker-Compose."
+aliases: ["Docker", "Docker-Compose"]
 draft: true
-categories: []
-tags: []
+categories: ["Docker"]
+tags: ["Docker"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
@@ -20,7 +20,7 @@ I have found that using the combination of [MariaDB](https://mariadb.com/) and [
 is very user-friendly for managing your database.
 Although there are many tutorials available, some of them are outdated. Therefore, 
 I have put together a quick guide to help you get started. Here are the prerequisites you need to meet before getting started:
-You must have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed. You can find the documentation for Debian here and for Windows and Mac OS here. 
+You must have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed. You can find the documentation for Debian here and for Windows and macOS here. 
 For **Docker Compose**, check out this [guide](https://docs.docker.com/compose/install/linux/).
 To get started, create a **Docker Compose file** using this template (be sure to pay attention to the variables that need 
 to be set, such as your password). Then, run **MariaDB** and **phpMyAdmin** using the file you just created.
@@ -97,12 +97,12 @@ SSH connection to your remote server and create a tunnel that forwards traffic f
 Once the tunnel is established, you can open your web browser and go to [http://localhost:40001](http://localhost:40001) to access PhpMyAdmin. 
 You should be prompted with a login screen where you can enter the username and password that you set in the docker-compose.yml file.
 Note that the SSH tunnel needs to be kept open for as long as you want to use PhpMyAdmin. 
-If you close the terminal window or terminate the SSH connection, the tunnel will be closed and you won't be able to 
+If you close the terminal window or terminate the SSH connection, the tunnel will be closed, and you won't be able to 
 access PhpMyAdmin until you create a new tunnel.
 
 
 
-[//]: # (![Screenshot.png]&#40;http://marcinmitruk.link/img/How-to-Install-Mariadb-+-Phpmyadmin-With-Docker---Compose/Screenshot1.png&#41;)
+[//]:(![Screenshot.png]&#40;http://marcinmitruk.link/img/How-to-Install-Mariadb-+-Phpmyadmin-With-Docker---Compose/Screenshot1.png&#41;)
 
 
 
