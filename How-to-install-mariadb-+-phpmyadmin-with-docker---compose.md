@@ -5,8 +5,8 @@ date: 2023-03-24T10:29:39Z
 description: "The text explains how to use MariaDB and phpMyAdmin for web application management with Docker-Compose."
 aliases: ["Docker", "Docker-Compose"]
 draft: true
-categories: ["Docker"]
-tags: ["Docker"]
+categories: ["Docker", "Docker-compose"]
+tags: ["Docker", "Docker-compose"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
