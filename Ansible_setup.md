@@ -3,9 +3,9 @@ author: "Marcin M"
 title: "Ansible setup"
 date: 2022-09-24T07:04:49+01:00
 description: "Sample article showcasing basic skills and knowledge and fundamental behaviours."
-aliases: ["Ansible","setuo"]
+aliases: ["Ansible","setup"]
 draft: true
-categories: ["Ansible","up ans run"]
+categories: ["Ansible","up and run"]
 tags: ["Ansible","setup"]
 ShowToc: true
 TocOpen: false

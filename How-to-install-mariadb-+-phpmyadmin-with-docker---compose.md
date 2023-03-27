@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-  URL: "https://github.com/Marcin13/posts/blob/master/How-to-Install-Mariadb-+-Phpmyadmin-With-Docker---Compose.md"
+  URL: "https://github.com/Marcin13/posts/blob/master/How-to-install-mariadb-%2B-phpmyadmin-with-docker---compose.md"
 ---
 ## How to install mariadb + phpmyadmin with docker-compose
 Running web applications, such as [Django](https://www.djangoproject.com/), requires the use of a database management system. 
