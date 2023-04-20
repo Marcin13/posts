@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-  URL: "https://github.com/Marcin13/posts/blob/master/SSL-Certificate-for-Use-With-Nginx-on-Localhost.md"
+  URL: "https://github.com/Marcin13/posts/blob/master/SSL-certificate-for-use-with-Nginx-on-localhost.md"
 ---
 ## Here are the general steps you can follow:
 1. Install OpenSSL on your local machine, if it is not already installed. OpenSSL is a command-line tool used to generate the certificate.
