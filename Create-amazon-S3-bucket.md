@@ -18,7 +18,7 @@ In this article will create our first S3 bucket
 
 > #### Let's create S3 bucket
 Click create bucket to create one
-![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_1.png)
+![Screenshot.png](http://marcinmitruk.link/img/Create-amazon-S3-bucket/Screenshot_1.png) 
 ***
 
 > #### Give the bucket name
