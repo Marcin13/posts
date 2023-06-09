@@ -3,10 +3,10 @@ author: "Marcin M"
 title: "Build an Awesome Kubernetes Cluster Using Proxmox VE"
 date: 2023-06-09T11:49:23+01:00
 description: "Building an Impressive Kubernetes Cluster with Proxmox VE"
-aliases: []
+aliases: ["k8s", "kubernetes"]
 draft: true
-categories: []
-tags: []
+categories: ["k8s", "kubernetes"]
+tags: ["kubernetes", "Proxmox"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
@@ -190,8 +190,8 @@ virt-sysprep -a /dev/pve/vm-9004-disk-0 \
 
 #### Initialization:
 
-On the controller node, execute the necessary steps to initialize the Kubernetes cluster: 
-Set on your need **--control-plane-endpoint=** and **--node-name=** 
+On the controller node, execute the necessary steps to initialize the Kubernetes cluster:
+Set on your need **--control-plane-endpoint=** and **--node-name=**
 Remember **--node-name=** lowercase only.
 
 ```shell
