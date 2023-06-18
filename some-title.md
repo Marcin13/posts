@@ -14,7 +14,7 @@ editPost:
   URL: "https://github.com/Marcin13/posts/blob/master/Some-Title.md"
 ---
 
-
+This only some example of template
 
 
 ![Screenshot.png](http://marcinmitruk.link/img/Some-Title/Screenshot1.png)

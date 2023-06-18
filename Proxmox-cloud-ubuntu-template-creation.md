@@ -51,7 +51,8 @@ qm set 9000 --scsihw virtio-scsi-pci --scsi0 local-lvm:vm-9000-disk-1
 >> Note: Ubuntu Cloud-Init images require the virtio-scsi-pci controller type for SCSI drives.
 >>
 
-Configure a CD-ROM drive to pass the Cloud-Init data to the VM:
+
+
 The next step is to configure a CD-ROM drive, which will be used to pass the Cloud-Init data to the VM.
 
 ```shell
