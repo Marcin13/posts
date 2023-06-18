@@ -3,10 +3,10 @@ author: "Marcin M"
 title: "Nmap"
 date: 2022-12-01T18:03:31Z
 description: "Sample msf6 usage cases"
-aliases: []
+aliases: ["Metasploid"]
 draft: true
-categories: ["scan"]
-tags: ["nmap"]
+categories: ["scan", "Metasploid"]
+tags: ["nmap", "Metasploid"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
