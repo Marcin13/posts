@@ -12,7 +12,7 @@ TocOpen: false
 searchHidden: false
 ShowRssButtonInSectionTermList: true
 editPost:
-    URL: "https://github.com/Marcin13/posts/blob/master/deploy.md"
+    URL: "https://github.com/Marcin13/posts/blob/master/Deploy.md"
 
 # dziala image for post in posts
 cover:

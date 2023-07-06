@@ -1,12 +1,12 @@
 ---
 author: "Marcin M"
-title: "Nmap"
+title: "Msf6"
 date: 2022-12-01T18:03:31Z
 description: "Sample msf6 usage cases"
 aliases: ["Metasploid"]
 draft: true
-categories: ["scan", "Metasploid"]
-tags: ["nmap", "Metasploid"]
+categories: ["scan", "Msf6"]
+tags: ["nmap", "Msf6"]
 ShowToc: true
 TocOpen: false
 searchHidden: false
