@@ -18,26 +18,26 @@ editPost:
 
  Check the [requirements](https://docs.docker.com/desktop/install/linux-install/#system-requirements) for installing Docker Desktop before you can proceed.
 
-#### 1. Update your system packages
+### 1. Update your system packages
 
 ```shell
 sudo apt update
 ```
 
-#### 2. Install required packages
+### 2. Install required packages
 
 ```shell
 sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
 ```
 
-#### 3. Download Docker GPG Key
+### 3. Download Docker GPG Key
 
 ```shell
 curl -fsSL https://download.docker.com/linux/debian/gpg | \
 sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-archive-keyring.gpg
 ```
 
-#### 4. Add Docker Repository
+### 4. Add Docker Repository
 
 ```shell
 echo \
@@ -45,59 +45,59 @@ echo \
  sudo tee /etc/apt/sources.list.d/docker.list
 ```
 
-#### 5. Update your system packages again
+### 5. Update your system packages again
 
 ```shell
 sudo apt update
 ```
 
-#### 6. Install Docker
+### 6. Install Docker
 
 ```shell
 sudo apt install docker-ce docker-ce-cli containerd.io uidmap
 ```
 
-#### 7. Start Docker service
+### 7. Start Docker service
 
 ```shell
 sudo systemctl start docker
 ```
 
-#### 8. Add your user to the Docker group
+### 8. Add your user to the Docker group
 
 ```shell
 sudo usermod -aG docker $USER
 ```
 
-#### 9. Download Docker Desktop Package
+### 9. Download Docker Desktop Package
 
->##### **Warning:** The latest known working version of Docker Desktop is reported to be **4.23.0**. However, using a version higher than 4.23.0 might cause issues, including potential damage to your Docker setup. I strongly recommend against installing a version beyond 4.23.0. If you choose to do so, be aware that it may adversely affect your Docker environment
+> **Warning:** The latest known working version of Docker Desktop is reported to be **4.23.0**. However, using a version higher than 4.23.0 might cause issues, including potential damage to your Docker setup. I strongly recommend against installing a version beyond 4.23.0. If you choose to do so, be aware that it may adversely affect your Docker environment
 
 ```shell
 wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.23.0-amd64.deb
 ```
 
-#### 10. Install Docker Desktop Package
+### 10. Install Docker Desktop Package
 
->##### **Warning:** Latest confirmed stable Docker Desktop version is **4.23.0**. Installing a version higher than 4.23.0 may cause issues and potentially damage your Docker setup. I strongly advise against installing versions beyond 4.23.0, as it can adversely affect your Docker environment
+> **Warning:** Latest confirmed stable Docker Desktop version is **4.23.0**. Installing a version higher than 4.23.0 may cause issues and potentially damage your Docker setup. I strongly advise against installing versions beyond 4.23.0, as it can adversely affect your Docker environment
 
 ```shell
 sudo apt install ./docker-desktop-4.23.0-amd64.deb
 ```
 
-#### 11. Start Docker Desktop service (user level)
+### 11. Start Docker Desktop service (user level)
 
 ```shell
 systemctl --user start docker-desktop
 ```
 
-#### 12. Enable Docker Desktop service (user level)
+### 12. Enable Docker Desktop service (user level)
 
 ```shell
 systemctl --user enable docker-desktop
 ```
 
-#### 13. Stop Docker Desktop service (user level)
+### 13. Stop Docker Desktop service (user level)
 
 ```shell
 systemctl --user stop docker-desktop
