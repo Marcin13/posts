@@ -13,7 +13,7 @@ searchHidden: false
 editPost:
   URL: "https://github.com/Marcin13/posts/blob/master/Build-an-Awesome-Kubernetes-Cluster-Using-Proxmox-VE.md"
 ---
-### Requirements:
+### Requirements
 
 To complete this tutorial, you'll need the following:
 
@@ -188,7 +188,7 @@ virt-sysprep -a /dev/pve/vm-9004-disk-0 \
 
 ### ------ control node only -----
 
-#### Initialization:
+#### Initialization
 
 On the controller node, execute the necessary steps to initialize the Kubernetes cluster:
 Set on your need **--control-plane-endpoint=** and **--node-name=**
@@ -292,4 +292,4 @@ and pass this token to node VM.
 
 ![Screenshot.png](http://marcinmitruk.link/img/Build-an-Awesome-Kubernetes-Cluster-Using-Proxmox-VE/Screenshot1.png)
 
-### Useful links:
+### Useful links

@@ -14,10 +14,12 @@ editPost:
     URL: "https://github.com/Marcin13/posts/blob/master/EC2-and-Windows.md"
 ---
 ### How do I configure an EC2 Windows instance to allow file downloads using Internet Explorer?
+
 I need to download third-party software from the internet to my Amazon Elastic Compute Cloud (Amazon EC2) Windows instance.
 The Internet Explorer security configuration is blocking my attempts. How can I enable downloads?
 
-> #### Connect to your EC2 Windows instance.
+> #### Connect to your EC2 Windows instance
+
 Open the Windows Start menu, and then open Server Manager.
 Follow the instructions for the Windows Server version that your EC2 Windows instance is running:
 Windows Server 2012 R2, Windows Server 2016, or Windows Server 2019: Choose Local Server from the left navigation pane. For IE Enhanced Security Configuration, choose On.
@@ -34,6 +36,6 @@ Close **Server Manager**.
 ![Screenshot.png](http://marcinmitruk.link/img/EC2-and-windows/Screenshot_1.png)
 ***
 
-
 ### Useful links
-https://aws.amazon.com/premiumsupport/knowledge-center/ec2-windows-file-download-ie/
+
+<https://aws.amazon.com/premiumsupport/knowledge-center/ec2-windows-file-download-ie/>

@@ -25,7 +25,9 @@ cover:
     relative: false 
 ---
 ### A quick way to make a new post
+
 Pass this code to your config.yml
+
 ```yaml
 #https://blog.cavelab.dev/2021/08/deploying-hugo-blog-to-s3/
 deployment:
@@ -40,22 +42,21 @@ deployment:
     - pattern: ^.+\.(html|xml|json)$
       gzip: true
 ```
+
 Create new post...
 
 ```shell
 hugo new posts/some-title.md
 ```
+
 and
 
 run local server tape ```hugo server``` to deploy on AWS s3 after the previous configuration
-type. 
+type.
+
 ```shell
 hugo && hugo deploy
 ```
 
 <!--more-->
 Yes, This is simple.
-
-
-
-
