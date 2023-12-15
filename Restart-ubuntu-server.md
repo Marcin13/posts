@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-  URL: "https://github.com/Marcin13/posts/blob/master/Restart-Ubuntu-Server.md"
+  URL: "https://github.com/Marcin13/posts/blob/master/Restart-ubuntu-server.md"
 ---
 There comes a time when your server requires regular restarts, and it can be a hassle to do it manually every time. However, there is a way to automate this process and make your life easier. Enter Systemd, a powerful init system that provides a convenient solution.
 
