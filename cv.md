@@ -3,7 +3,7 @@
 ## CONTACT
 
 - **Phone:** 07986555371
-- **Email:** marcinmitruk@gmail.com
+- **Email:** <marcinmitruk@gmail.com>
 - **Address:** 13 Brunswick Street East, Maidstone ME15 7UU
 
 ## EDUCATION
@@ -11,38 +11,57 @@
 - **Information Technology in Agriculture Engineering**
   - Degree Engineer, University
   - 2023-2023
+  - Enhancing my IT skills and knowledge for a dynamic career.
 
 - **Degree in Car Mechanics**
   - High School in Lublin
   - 1999-2007
+  - Foundation in mechanical expertise and problem-solving.
+
+## CERTIFICATIONS
+
+- **AWS Certified Solutions Architect – Associate**
+  - [Certificate Verification](https://www.aws.amazon.com/verification) (Validation Number: C5ZXY1TCQMQQQE5P)
+  
+- **AWS Cloud Practitioner**
+  - [Certificate Verification](https://www.aws.amazon.com/verification) (Validation Number: GBHB24NLE2Q1QJCH)
+
+- **HashiCorp Certified: Terraform Associate**
+  - [Certificate Verification](https://www.credly.com/badges/e0401469-0e03-4238-bd5e-99e1f849de5f/embedded)
 
 ## IT ENGAGEMENTS
 
 ### Home Lab and Project Contributions
 
-Established a comprehensive home lab using Dell Poweredge T610 and Supermicro X7DCA-3. Actively engaged in IT projects, experimenting with various configurations, and gaining hands-on experience in infrastructure management.
+Established a robust home lab environment utilizing Dell Poweredge T610 and Supermicro X7DCA-3. Actively participated in diverse IT projects, experimenting with configurations, and acquiring hands-on experience in infrastructure management.
 
 ### Community Support
 
-Provided valuable IT support to friends and peers, offering assistance in troubleshooting, system setup, and implementing effective solutions.
+Provided essential IT support to friends and peers, offering assistance in troubleshooting, system setup, and implementing effective solutions.
+
+### Skills Highlights
+
+- Proficient in Terraform for Infrastructure as Code (IaC).
+- Experienced in Linux Ubuntu system administration.
+- Automation enthusiast, adept at streamlining processes.
+- Passionate about cloud technologies, with a focus on AWS.
 
 ## WORK EXPERIENCE
 
 - **Bidvest**
-  - *The job was not related to the IT sector*
+  - *While my primary role at Bidvest was not centered around IT*
   - 2017-now
-  - While my primary role at Bidvest was not directly related to the IT sector, I passionately pursued IT projects in my free time.
+    - Actively pursued IT projects during free time, honing skills in Terraform, Linux administration, and cloud technologies, with a primary focus on AWS.
 
 - **Wincanton**
-  - *The job was not related to the IT sector*
+  - *Although my role at Wincanton wasn't IT-focused*
   - 2015-2017
-  - During my tenure at Wincanton, I continued to expand my IT expertise outside of the workplace.
+    - Continued expanding IT expertise beyond the workplace, delving into Linux Ubuntu administration and cultivating a passion for cloud technologies.
 
 - **Delice de France**
-  - *The job was not related to the IT sector*
+  - *Despite my primary responsibilities at Delice de France not being IT-related*
   - 2006-2015
-  - Despite my primary responsibilities at Delice de France, I dedicated my free time to cultivating my passion for IT.
-
+    - Dedicated free time to foster a deep passion for IT, focusing on automation, cloud technologies, and AWS.
 
 ## SUMMARY
 
@@ -50,7 +69,7 @@ I am a university graduate passionate about IT, eager to bring a strong work eth
 
 ## SKILLS
 
-### Infrastructure as Code (IaC) with Terraform:
+### Infrastructure as Code (IaC) with Terraform
 
 I use Terraform for automating cloud infrastructure provisioning and management in AWS.
 
@@ -58,56 +77,71 @@ I use Terraform for automating cloud infrastructure provisioning and management 
 
 - [Certificate Verification](https://www.credly.com/badges) (Validation Number: C5ZXY1TCQMQQQE5P)
 
-### Infrastructure as Code (IaC) with Ansible:
+### Infrastructure as Code (IaC) with Ansible
 
 Highly proficient in using Ansible for server configuration management.
 
-### Containerization:
+### Containerization
 
 Strong understanding of Docker containerization and integration within Kubernetes (K8s) orchestration.
 
-### Within the Kubernetes Ecosystem:
+### Within the Kubernetes Ecosystem
 
 Deployment and management of Kubernetes clusters on various infrastructures.
 
-### AWS Amazon Web Services:
+### AWS Amazon Web Services
 
-AWS Certified Solutions Architect – Associate and AWS Cloud Practitioner.
+I hold notable certifications in AWS, including:
 
-### Oracle:
+- **AWS Certified Solutions Architect – Associate**
+  - [Certificate Verification](https://www.credly.com/badges) (Validation Number: C5ZXY1TCQMQQQE5P)
 
-Utilized Oracle services for instance deployment and management.
+  As a Solutions Architect, I have demonstrated expertise in architecting and implementing robust AWS solutions. This certification validates my comprehensive knowledge of various AWS services, including IAM, EC2, VPC, and RDS.
 
-### Digital Ocean:
+- **AWS Cloud Practitioner**
+  - [Certificate Verification](https://www.credly.com/badges) (Validation Number: GBHB24NLE2Q1QJCH)
 
-Practical experience in application deployment through DigitalOcean and Linode.
+  As a Cloud Practitioner, I have a strong foundation in cloud concepts, AWS services, security, and architecture. This certification showcases my understanding of cloud best practices and AWS cloud economics.
 
-### Home Lab Dell Poweredge T610 and Microserver:
+My proficiency extends to various AWS services, enabling me to implement robust security measures and optimize AWS environments in diverse scenarios.
 
-Utilize Dell Poweredge T610 and Microserver systems for a versatile home lab environment.
+### Oracle
 
-### Proxmox:
+I have hands-on experience utilizing Oracle services for instance deployment and management. With my own account, leveraging the always-free tier, I've found Oracle Cloud to be a cost-effective solution for running servers. My appreciation for Oracle's intriguing features and capabilities has grown through cost-effective exploration and experimentation. This hands-on experience has expanded my knowledge and proficiency in working with Oracle's cloud offerings.
 
-Proficient in Proxmox for quick deployment and management of virtual machines.
+### Digital Ocean
+
+I possess practical experience in cost-effective application deployment through DigitalOcean and Linode, especially for Kubernetes clusters. Leveraging the affordability and efficiency of these platforms, I have successfully deployed and managed applications, honing my skills in cloud infrastructure management and hosting. This hands-on experience has further strengthened my capabilities in delivering efficient and scalable solutions in diverse cloud environments.
+
+### Home Lab Dell Poweredge T610 and Microserver
+
+I actively maintain a versatile home lab environment utilizing Dell Poweredge T610 and Supermicro X7DCA-3. Running Proxmox as the virtualization platform, I efficiently manage various components, including Docker images, Linux instances, and cloud environments. The Proxmox setup allows me to simulate diverse environments effortlessly, managing firewalls, users, groups, permissions, and more. Additionally, I specialize in configuring Kubernetes clusters (K8s), further enhancing my skills in orchestrating and managing containerized applications. This hands-on experience has equipped me with a comprehensive understanding of virtualization and containerization technologies.
+
+### Proxmox
+
+I showcase proficiency in Proxmox, a powerful virtualization tool, for the rapid deployment and efficient management of virtual machines. Leveraging the capabilities of Proxmox, I ensure quick and seamless execution of various configurations and scenarios. The integration of Proxmox into my home lab, particularly on Dell Poweredge T610 and Supermicro X7DCA-3 systems, allows me to simulate real bare-metal environments, supporting simultaneous instances and providing flexibility for various use cases and workloads.
 
 ## CONCLUSION
 
-I have a deep understanding of modern IT technologies and stay current with the latest developments and advancements.
+My deep understanding of modern IT technologies extends to proficient utilization of advanced tools like Proxmox. I actively stay abreast of the latest developments and advancements in the IT landscape, ensuring that my skill set remains at the forefront of industry trends.
 
 ## LANGUAGE SKILLS
 
-- English
+- English (Fluent)
+- Polish (Native)
+
+## NATIONALITY
+
 - Polish
-
-## OTHER
-
-- Nationality: Polish, English
+- English
 
 ## LINKS TO MY PROFILES
 
-- [LinkedIn](#)
-- [GitHub](#)
-- [Personal Website](#)
+- [Docker Hub](https://hub.docker.com/u/m4r6in)
+- [Facebook](https://www.facebook.com/marcin.mitruk/)
+- [Stack Overflow](https://stackoverflow.com/users/1479050/marcin)
+- [GitHub](https://github.com/Marcin13)
+- [LinkedIn](https://www.linkedin.com/in/marcin-mitruk-248aa9216/)
 
 ## PROGRAMMING EXPERTISE
 
