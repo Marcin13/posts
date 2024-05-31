@@ -14,8 +14,11 @@ editPost:
     URL: "https://github.com/Marcin13/posts/blob/master/Dell_Poweredge_t610.md"
 ---
 ### Dell PowerEdge T610
+
 ![Dell t610](https://cdn.bargainhardware.co.uk/media/product/c7f/dell-poweredge-t610-8x-2-5-sff-tower-server-757.jpg)
-#### The Dell™ PowerEdge™ T610 server is a key data center building block for IT professionals seeking the highest level of performance, availability, and expandability in a 2-socket server.
+
+#### The Dell™ PowerEdge™ T610 server is a key data center building block for IT professionals seeking the highest level of performance, availability, and expandability in a 2-socket server
+
 Ideally suited for small and medium businesses and remote office
 customers, the T610 delivers enhanced virtualization, improved
 design, and energy efficiency in a server engineered to address
@@ -30,6 +33,7 @@ capabilities you need while providing impressive power and
 thermals for overall energy efficiency. This mainstream two socket
 Intel™ based tower server includes a rack-mount option and
 supports mission critical applications and data processing.
+
 #### Purposeful design
 
 The T610 takes advantage of Dell’s system commonality. Once
@@ -47,6 +51,7 @@ thermometer built into the server that they can monitor on this
 display without any software tools
 
 #### Energy-optimized technology
+
 Using the latest Energy Smart technologies, the T610 helps reduce
 power consumption while increasing performance capacity
 over previous generations of Dell towers. Enhancements include
@@ -57,7 +62,9 @@ Smart components.
 These features are designed to maximize energy usage across
 our latest core data center servers without compromising
 performance.
+
 #### Advanced virtualization
+
 Featuring Intel® Xeon® processor 5500 and 5600 series,
 embedded hypervisors, 100% integrated I/O, and up to 100% more
 memory capacity than the previous server generations, the Dell
@@ -72,11 +79,13 @@ Citrix, and Microsoft, and enable virtualization with a few mouse
 clicks.
 
 #### Simplified systems management
+
 The Dell OpenManage™ suite offers enhanced operations and
 standards-based commands designed to integrate with existing
 systems for effective control.
 
 #### Lifecycle controller
+
 Lifecycle Controller is the engine for advanced systems'
 management integrated on the server. Lifecycle Controller
 simplifies administrator tasks to perform a complete set of
@@ -91,6 +100,7 @@ which provides IT managers with a consolidated view of their
 entire IT infrastructure.
 
 #### Dell Services
+
 Dell Services can help reduce IT complexity, lower costs, and
 eliminate inefficiencies by making IT and business solutions work
 harder for you. The Dell Services team takes a holistic view of your
@@ -99,6 +109,7 @@ objectives while leveraging proven delivery methods, local talent,
 and in-depth domain knowledge for the lowest TCO.
 
 ## PowerEdge T610 technical specification
+
 | Feature | PowerEdge T610 technical specification |
 | ------ | ----------- |
 | Form factor   | Tower or 5U rack |
@@ -164,6 +175,7 @@ For more information on the specific versions and additions, visit Dell.com/OSsu
 | Thermal operation | Continuous operation: 10C to 35C, 10% to 80% relative humidity (RH). 10% of annual operating hours: 5C to 40C, 5% to 85%RH. 1% of annual operating hours: -5C to 45C, 5% to 90%RH. For in-depth detail, check your user manu |
 
 #### OEM-ready models available
+
 OEM-ready platforms are grab-and-go products for OEM customers delivering a fast and simple
 path to a custom-branded solution. For more information, please visit Dell.com/OEM.
 

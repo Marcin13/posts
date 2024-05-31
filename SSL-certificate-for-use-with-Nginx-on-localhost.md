@@ -51,6 +51,7 @@ server {
 ```
 This server block configures Nginx to listen on **port 443 (HTTPS)**, use the SSL certificate, and serve files from the **/var/www/html** directory.
 Replace this with your own configuration as needed.
+
 5. Restart Nginx to apply the changes:
 ```shell
 sudo systemctl restart nginx

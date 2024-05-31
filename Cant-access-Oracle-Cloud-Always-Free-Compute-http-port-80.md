@@ -19,7 +19,8 @@ Can't access Oracle Cloud Always Free Compute http port
 - ``curl localhost`` should bring back webpage in text format, however fails over internet.
 
 ```shell
-$ sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
-$ sudo netfilter-persistent save
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo netfilter-persistent save
 ```
- - test your web page over internet
+
+- test your web page over internet
