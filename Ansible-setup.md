@@ -16,9 +16,6 @@ editPost:
 This guide explains how to install Ansible using Python 3 and PIP. It covers checking for Python 3, installing Ansible with PIP, and providing shell scripts for automation. It also includes an introduction to Ansible and a brief conclusion.
 
 [comment]:
-[comment]:
-[comment]:
-[comment]:
 [//]: #
 
 We can check which version of Python3 is installed on our system by running the command:
