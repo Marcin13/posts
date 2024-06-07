@@ -56,6 +56,8 @@ Download the OpenVPN installation script from GitHub:
 
 ```bash 
 cd /opt
+```
+```shell
 wget https://raw.githubusercontent.com/Nyr/openvpn-install/master/openvpn-install.sh -O openvpn-install.sh
 ```
 
@@ -63,6 +65,8 @@ Make the script executable and run it:
 
 ```bash 
 chmod +x openvpn-install.sh
+```
+```shell
 ./openvpn-install.sh
 ```
 
