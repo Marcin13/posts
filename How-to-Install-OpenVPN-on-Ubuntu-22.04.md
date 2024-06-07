@@ -13,12 +13,12 @@ searchHidden: false
 editPost:
   URL: "https://github.com/Marcin13/posts/blob/master/How-to-Install-OpenVPN-on-Ubuntu-22.04.md"
 ---
-#### Prerequisites
+### Prerequisites
 
     An Ubuntu server 22.04
     SSH root access or regular user with root privileges
 
-##### Step 1. Log in to the Server
+#### Step 1. Log in to the Server
 
 First, log in to your Ubuntu 22.04 VPS through SSH as the root user:
 
@@ -43,14 +43,14 @@ Expected output:
     Release: 22.04
     Codename: jammy
 
-##### Step 2. Update the System
+#### Step 2. Update the System
 
 Ensure all packages are up-to-date:
 
 ```bash
 sudo bash -c "apt update & apt upgrade -y && apt autoremove -y"
 ```
-##### Step 3. Install OpenVPN Server
+#### Step 3. Install OpenVPN Server
 
 Download the OpenVPN installation script from GitHub:
 
