@@ -72,6 +72,11 @@ chmod +x openvpn-install.sh
 
 During the installation, you will be prompted with several questions:
 
+    Welcome to this OpenVPN road warrior installer!
+    
+    This server is behind NAT. What is the public IPv4 address or hostname?
+    Public IPv4 address / hostname [you.ip.add.res]:
+
 Choose the protocol (UDP is recommended):
 
      Which protocol should OpenVPN use?
@@ -107,11 +112,15 @@ Start the installation:
 
 The script will install the OpenVPN server, generate a certificate, create the VPN user specified, and configure the firewall. The OpenVPN configuration file can be found at /etc/openvpn/server/server.conf.
 
+    Finished!
+
+    The client configuration is available in: /root/client.ovpn
+    New clients can be added by running this script again.
+
 You can check the OpenVPN service status with:
 
-bash
 
-systemctl status openvpn-server@server.service
+    systemctl status openvpn-server@server.service
 
 This summarizes the process of setting up OpenVPN on an Ubuntu 22.04 server using a bash script.
 
