@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-  URL: "https://github.com/Marcin13/posts/blob/master/How-to-Install-OpenVPN-on-Ubuntu-22.04-AWS-cloud.md"
+  URL: "https://github.com/Marcin13/posts/blob/master/How-to-Install-OpenVPN-on-Ubuntu-22.04-AWS_cloud.md"
 ---
 
 ## Introduction
@@ -67,18 +67,19 @@ Download the OpenVPN installation script from GitHub:
 cd /opt
 ```
 
-```shell
-curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
-```
-
 Change to the root user because the script requires root permissions:
-
 ```shell
 sudo -i
 ```
-
+Download the script:
+```shell
+curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+```
+List the files in the directory:
+```shell
+ls
+````
 Make the script executable and run it:
-
 ```bash
 chmod +x openvpn-install.sh
 ```
@@ -418,7 +419,8 @@ chmod +x openvpn-install.sh
     systemctl enable openvpn@server
 
 ### Step 4. Download the Client Configuration File
-
+    The configuration file has been written to /home/ubuntu/paris_pc.ovpn.
+    Download the .ovpn file and import it in your OpenVPN client.
 
 
 ![Screenshot.png](http://marcinmitruk.link/img/How-to-Install-OpenVPN-on-Ubuntu-22.04/Screenshot1.png)
