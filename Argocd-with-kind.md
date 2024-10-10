@@ -23,7 +23,7 @@ In this tutorial, I will show you how to install Argo CD locally on Kali Linux u
 
 Before you begin, ensure you have the following:
 
-  - A system running Kali Linux.
+  - A system running Kali Linux or any other Linux distribution.
   - Kubernetes in Docker (Kind) installed and configured on your Kali Linux system.
   - A foundational understanding of Linux, Kubernetes, and Argo CD.
 
