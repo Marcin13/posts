@@ -2,18 +2,17 @@
 author: "Marcin M"
 title: "Argocd With Kind"
 date: 2024-10-10T11:39:29+01:00
-description: "A quick guide on how to install Argo CD locally on Kali Linux using a Kind environment"
-aliases: ['Argocd']
+description: "Sample article showcasing basic skills. "
+aliases: []
 draft: true
-categories: ['DevOps', 'Automation', 'Kubernetes'],
-tags: ['ArgoCD', 'Kubernetes', 'Kind', 'DevOps']
+categories: ['DevOps', 'Automation']
+tags: ['kind', 'argocd']
 ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
   URL: "https://github.com/Marcin13/posts/blob/master/Argocd-with-kind.md"
 ---
-
 ![Screenshot.png](http://marcinmitruk.link/img/Argocd-with-kind/01.webp)
 
 ## Introduction
