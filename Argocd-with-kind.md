@@ -11,7 +11,7 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-  URL: "https://github.com/Marcin13/posts/blob/master/Argocd-With-Kind.md"
+  URL: "https://github.com/Marcin13/posts/blob/master/Argocd-with-kind.md"
 ---
 
 
