@@ -14,7 +14,7 @@ editPost:
   URL: "https://github.com/Marcin13/posts/blob/master/Argocd-with-kind.md"
 ---
 ![Screenshot.png](http://marcinmitruk.link/img/Argocd-with-kind/01.webp)
-  
+
 ## Introduction
 
 In this tutorial, I will show you how to install Argo CD locally on Kali Linux using a Kind environment. Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes, which simplifies managing and deploying applications.
