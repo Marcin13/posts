@@ -203,6 +203,7 @@ spec:
             class: nginx  # Specify NGINX as the ingress class for solving HTTP challenges
 
 ```
+
 Check if the ClusterIssuer resource is created by running the following command:
 
 ```bash
@@ -236,7 +237,7 @@ There is good idea to restart the argo cd deployment to apply the changes:
 kubectl rollout restart deployment argocd-server -n argocd
 ```
 
-##### Step 9 Access Argo CD in the Browser
+#### Step 9 Access Argo CD in the Browser
 
 Now your Argo CD setup is complete, and it should be accessible from your browser at http://argocd.local or https://argocd.local, depending on your configuration. You can log in to the Argo CD web interface using the default username **admin** and the password (usually auto-generated or obtained from a Kubernetes secret).
 
