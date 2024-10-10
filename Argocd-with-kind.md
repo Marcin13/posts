@@ -116,6 +116,7 @@ Create an Ingress resource to route traffic to the Argo CD server. This will all
 Create a new file called **argocd-ingress.yaml** and add the following configuration:
 
 ```bash
+# argocd-ingress.yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -185,6 +186,7 @@ Configure a ClusterIssuer resource to use Let's Encrypt as the certificate autho
 Create a new file called **letsencrypt-prod-cluster-issuer.yaml** and add the following configuration:
 
 ```bash
+# letsencrypt-prod-cluster-issuer.yaml
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
@@ -213,6 +215,7 @@ Modify the Argo CD ConfigMap to allow access without HTTPS verification. This is
 Create a new file called **argocd-cmd-params-cm.yaml** and add the following configuration:
 
 ```bash
+# argocd-cmd-params-cm.yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
