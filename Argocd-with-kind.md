@@ -2,10 +2,10 @@
 author: "Marcin M"
 title: "Argocd With Kind"
 date: 2024-10-10T11:39:29+01:00
-description: "Sample article showcasing basic skills. "
+description: "Step-by-step guide on how to install Argo CD locally on Kali Linux using a Kind environment. "
 aliases: []
 draft: true
-categories: ['DevOps', 'Automation']
+categories: ['DevOps', 'Automation', 'Kubernetes']
 tags: ['kind', 'argocd']
 ShowToc: true
 TocOpen: false
