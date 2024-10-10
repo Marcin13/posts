@@ -11,13 +11,14 @@ ShowToc: true
 TocOpen: false
 searchHidden: false
 editPost:
-  URL: "https://github.com/Marcin13/posts/blob/master/Prestashop-With-Nginx.md"
+  URL: "https://github.com/Marcin13/posts/blob/master/Prestashop-with-nginx.md"
 ---
-
-
-
-
 ![Screenshot.png](http://marcinmitruk.link/img/Prestashop-with-nginx/01.webp)
+
+
+
+
+
 
 
 
