@@ -13,6 +13,7 @@ searchHidden: false
 editPost:
   URL: "https://github.com/Marcin13/posts/blob/master/Argocd-with-kind.md"
 ---
+
 ![Screenshot.png](http://marcinmitruk.link/img/Argocd-with-kind/01.webp)
 
 ## Introduction
