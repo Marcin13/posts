@@ -6,7 +6,7 @@ description: "Step-by-step guide on how to install Argo CD locally on Kali Linux
 aliases: []
 draft: true
 categories: ['DevOps', 'Automation', 'Kubernetes']
-tags: ['kind', 'argocd']
+tags: ['ArgoCD', 'Kubernetes', 'Kind', 'Docker', 'DevOps']
 ShowToc: true
 TocOpen: false
 searchHidden: false
