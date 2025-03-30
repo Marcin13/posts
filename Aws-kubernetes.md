@@ -34,7 +34,7 @@ Aws get user, to check if the user is the one we expect
     aws iam get-user
 
 
-Verify Configuration
+Verify Configuration, to check if the configuration is correct
 
 
     kubectl get nodes
