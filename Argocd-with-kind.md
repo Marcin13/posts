@@ -244,10 +244,8 @@ Now your Argo CD setup is complete, and it should be accessible from your browse
 #### Obtaining the Argo CD Password
 
 To obtain the password for the Argo CD web interface, run the following command:
-
-```bash
-kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
-```
+  
+    kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
 Congratulations! You have successfully installed Argo CD on your local Kali Linux system using Kind. You can now use Argo CD to manage and deploy applications on your Kubernetes cluster.
 
@@ -257,3 +255,13 @@ Congratulations! You have successfully installed Argo CD on your local Kali Linu
 
 
 ### Useful links
+ [Argo CD Documentation](https://argo-cd.readthedocs.io/en/stable/)
+
+ [Kubernetes Ingress NGINX Controller](https://kubernetes.github.io/ingress-nginx/)
+
+ [Kubernetes Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+
+ [Cert-Manager Documentation](https://cert-manager.io/docs/)  
+
+ [Kubernetes In Docker (Kind)](https://kind.sigs.k8s.io/docs/user/quick-start/)
+

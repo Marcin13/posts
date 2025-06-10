@@ -30,6 +30,7 @@ On your attacker machine (Kali, VPS, Oracle Cloud, etc.), open a port to receive
 ```bash
 nc -lvnp 12345
 ```
+
     -l → listen mode
 
     -v → verbose
